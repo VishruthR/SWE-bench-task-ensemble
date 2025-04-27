@@ -3,6 +3,7 @@ import os
 import glob
 
 # finds common instance ids between UTGenerator output and patch prediction format
+# AI Gen using GitHub Copilot + Clause Sonnet 3.7
 
 def find_common_instance_ids():
     test_case_file = "/home/ec2-user/dkang_starter_task/generated_test_cases.json"

@@ -5,6 +5,12 @@ import shutil
 import sys
 from pathlib import Path
 
+"""
+Copies top models based on leaderboard to new directory for easier organization
+
+AI Gen using GitHub Copilot + Clause Sonnet 3.7
+"""
+
 def copy_top_models():
     # Load the data.json file
     try:
