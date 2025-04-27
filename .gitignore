@@ -1,2 +1,4 @@
 *.json
 logs/
+
+UTBoost/generated_test_cases
