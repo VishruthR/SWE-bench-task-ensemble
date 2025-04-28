@@ -1,8 +1,15 @@
 import re
 import pdb
 from enum import Enum
-from swebench.harness.constants import TestStatus
+# from swebench.harness.constants import TestStatus
 from collections import deque
+
+class TestStatus(Enum):
+    FAILED = "FAILED"
+    PASSED = "PASSED"
+    SKIPPED = "SKIPPED"
+    ERROR = "ERROR"
+    XFAIL = "XFAIL"
 
 def parse_log_pytest(log: str) -> dict[str, str]:
     """

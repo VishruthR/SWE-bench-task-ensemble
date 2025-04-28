@@ -3,3 +3,5 @@
 logs/
 
 UTBoost/generated_test_cases
+
+__pycache__/
