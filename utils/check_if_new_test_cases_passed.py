@@ -7,7 +7,7 @@ import os
 import sys
 import json
 from pathlib import Path
-from utils.log_parsers import MAP_REPO_TO_PARSER
+from log_parsers import MAP_REPO_TO_PARSER
 
 def get_repo_from_dir_name(dir_name):
     """

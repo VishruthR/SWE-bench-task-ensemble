@@ -31,7 +31,7 @@ CMD="python -m swebench.harness.run_evaluation \
     --dataset_name princeton-nlp/SWE-bench_Verified \
     --predictions_path $PREDICTIONS_PATH \
     --max_workers 8 \
-    --cache_level instance \
+    --cache_level env \
     --run_id $RUN_ID \
     --instance_ids $INSTANCE_IDS \
     --clean True"
