@@ -7,10 +7,10 @@
 SELECTED_IDS_FILE="/home/ec2-user/dkang_starter_task/selected_ids.txt"
 
 # Path to the predictions file
-PREDICTIONS_PATH="/home/ec2-user/dkang_starter_task/gru_updated_patch.jsonl"
+PREDICTIONS_PATH="/home/ec2-user/dkang_starter_task/top_models/20250316_augment_agent_v0/all_preds.jsonl"
 
 # Run ID for the evaluation
-RUN_ID="test_concatenated_patch_multi_instance"
+RUN_ID="augment_agent_v0"
 
 # Check if the selected IDs file exists
 if [ ! -f "$SELECTED_IDS_FILE" ]; then
@@ -30,10 +30,11 @@ echo "Run ID: $RUN_ID"
 CMD="python -m swebench.harness.run_evaluation \
     --dataset_name princeton-nlp/SWE-bench_Verified \
     --predictions_path $PREDICTIONS_PATH \
-    --max_workers 8 \
+    --max_workers 6 \
     --cache_level env \
     --run_id $RUN_ID \
     --instance_ids $INSTANCE_IDS \
+    --report_dir /home/ec2-user/dkang_starter_task/original_runs \
     --clean True"
 
 echo "Executing command:"

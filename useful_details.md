@@ -39,3 +39,7 @@ python -m swebench.harness.run_evaluation \
     --run_id test_single_instance_patch \
     --instance_ids django__django-15104 \
     --clean True
+
+Running each model takes about 6-10 minutes
+
+Running 20 takes 2-3 hours O_O

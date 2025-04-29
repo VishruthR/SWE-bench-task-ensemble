@@ -2,6 +2,8 @@
 Checks if newly generated test cases passed
 
 AI Gen by GitHub Copilot + Clause Sonnet 3.7
+
+DOES NOT WORK FOR ALL TEST CASES!!!
 """
 import os
 import sys
@@ -20,7 +22,10 @@ def get_repo_from_dir_name(dir_name):
         str: Repository name in the format 'repo/repo'
     """
     # Split by '-' to separate the issue number, then split by '__' to get repo parts
-    parts = dir_name.split('-')[0].split('__')
+    # Split by the last '-' to separate the issue number, then split by '__' to get repo parts
+    # dir_name = dir_name[len("new_tests_"):]
+    parts = dir_name.rsplit('-', 1)[0].split('__')
+    print(parts)
     if len(parts) >= 2:
         # Format as owner/repo (e.g., django/django)
         return f"{parts[0]}/{parts[1]}"
@@ -92,6 +97,8 @@ def check_new_test_cases(instance_id, test_results, new_test_cases):
     simplified_test_cases = {
         test_name.split(" ")[0]: test_name for test_name in test_results.keys()
     }
+    print(simplified_test_cases)
+    print(test_results)
     
     passed_tests = []
     failed_tests = []
