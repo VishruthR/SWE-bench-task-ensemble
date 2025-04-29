@@ -7,10 +7,10 @@
 SELECTED_IDS_FILE="/home/ec2-user/dkang_starter_task/selected_ids.txt"
 
 # Path to the predictions file
-PREDICTIONS_PATH="/home/ec2-user/dkang_starter_task/top_models/20250316_augment_agent_v0/all_preds.jsonl"
+PREDICTIONS_PATH="/home/ec2-user/dkang_starter_task/ensemble_model/all_preds.jsonl"
 
 # Run ID for the evaluation
-RUN_ID="augment_agent_v0"
+RUN_ID="ensemble_model"
 
 # Check if the selected IDs file exists
 if [ ! -f "$SELECTED_IDS_FILE" ]; then
@@ -34,7 +34,7 @@ CMD="python -m swebench.harness.run_evaluation \
     --cache_level env \
     --run_id $RUN_ID \
     --instance_ids $INSTANCE_IDS \
-    --report_dir /home/ec2-user/dkang_starter_task/original_runs \
+    --timeout 600 \
     --clean True"
 
 echo "Executing command:"

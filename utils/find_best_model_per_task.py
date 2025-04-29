@@ -71,7 +71,7 @@ def find_best_model_per_task(model_trial_directories):
             all_results[task_id][model_name] = stats["pass_rate"]
             
             # Update best model if this one has a higher pass rate
-            if task_id not in best_models or stats["pass_rate"] > best_models[task_id]["pass_rate"]:
+            if task_id not in best_models or stats["pass_rate"] >= best_models[task_id]["pass_rate"]:
                 best_models[task_id] = {
                     "model": model_name,
                     "pass_rate": stats["pass_rate"],
