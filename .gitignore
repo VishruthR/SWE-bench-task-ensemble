@@ -1,6 +1,12 @@
-*.json
-*.jsonl
+UTBoost/
+
+top_models/
+
 logs/
+old_runs_trials/
+
+added_test_cases.json
+task_pass_rates.json
 
 UTBoost/generated_test_cases
 

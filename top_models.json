@@ -1,0 +1,212 @@
+{
+  "astropy__astropy-14995": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 179,
+    "missing_count": 0,
+    "total_count": 179
+  },
+  "django__django-11119": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 9,
+    "missing_count": 0,
+    "total_count": 9
+  },
+  "django__django-11964": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 16,
+    "missing_count": 0,
+    "total_count": 16
+  },
+  "django__django-11999": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 31,
+    "missing_count": 0,
+    "total_count": 31
+  },
+  "django__django-12262": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.8636363636363636,
+    "pass_count": 19,
+    "missing_count": 3,
+    "total_count": 22
+  },
+  "django__django-13089": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.7474120082815735,
+    "pass_count": 361,
+    "missing_count": 122,
+    "total_count": 483
+  },
+  "django__django-13112": {
+    "model": "20250228_epam-ai-run-claude-3-5-sonnet",
+    "pass_rate": 0.984375,
+    "pass_count": 63,
+    "missing_count": 1,
+    "total_count": 64
+  },
+  "django__django-13406": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 37,
+    "missing_count": 0,
+    "total_count": 37
+  },
+  "django__django-14122": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9615384615384616,
+    "pass_count": 25,
+    "missing_count": 1,
+    "total_count": 26
+  },
+  "django__django-14238": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.967741935483871,
+    "pass_count": 60,
+    "missing_count": 2,
+    "total_count": 62
+  },
+  "django__django-14539": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9375,
+    "pass_count": 15,
+    "missing_count": 1,
+    "total_count": 16
+  },
+  "django__django-15268": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9928571428571429,
+    "pass_count": 139,
+    "missing_count": 1,
+    "total_count": 140
+  },
+  "django__django-15987": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9661016949152542,
+    "pass_count": 57,
+    "missing_count": 2,
+    "total_count": 59
+  },
+  "django__django-16136": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 8,
+    "missing_count": 0,
+    "total_count": 8
+  },
+  "django__django-16801": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9583333333333334,
+    "pass_count": 46,
+    "missing_count": 2,
+    "total_count": 48
+  },
+  "matplotlib__matplotlib-20488": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9016393442622951,
+    "pass_count": 110,
+    "missing_count": 12,
+    "total_count": 122
+  },
+  "matplotlib__matplotlib-23314": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9965317919075144,
+    "pass_count": 862,
+    "missing_count": 3,
+    "total_count": 865
+  },
+  "matplotlib__matplotlib-25287": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9949558638083228,
+    "pass_count": 789,
+    "missing_count": 4,
+    "total_count": 793
+  },
+  "matplotlib__matplotlib-26342": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9759036144578314,
+    "pass_count": 81,
+    "missing_count": 2,
+    "total_count": 83
+  },
+  "pytest-dev__pytest-5809": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.8,
+    "pass_count": 4,
+    "missing_count": 1,
+    "total_count": 5
+  },
+  "scikit-learn__scikit-learn-11578": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.0,
+    "pass_count": 0,
+    "missing_count": 1,
+    "total_count": 1
+  },
+  "scikit-learn__scikit-learn-13779": {
+    "model": "20250206_agentscope",
+    "pass_rate": 1.0,
+    "pass_count": 18,
+    "missing_count": 0,
+    "total_count": 18
+  },
+  "scikit-learn__scikit-learn-14894": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 86,
+    "missing_count": 0,
+    "total_count": 86
+  },
+  "sphinx-doc__sphinx-10466": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.8888888888888888,
+    "pass_count": 8,
+    "missing_count": 1,
+    "total_count": 9
+  },
+  "sphinx-doc__sphinx-9367": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 26,
+    "missing_count": 0,
+    "total_count": 26
+  },
+  "sphinx-doc__sphinx-9711": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.0,
+    "pass_count": 0,
+    "missing_count": 1,
+    "total_count": 1
+  },
+  "sympy__sympy-20801": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9797979797979798,
+    "pass_count": 97,
+    "missing_count": 2,
+    "total_count": 99
+  },
+  "sympy__sympy-22914": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 0.9,
+    "pass_count": 18,
+    "missing_count": 2,
+    "total_count": 20
+  },
+  "sympy__sympy-23262": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 63,
+    "missing_count": 0,
+    "total_count": 63
+  },
+  "django__django-13925": {
+    "model": "20250316_augment_agent_v0",
+    "pass_rate": 1.0,
+    "pass_count": 22,
+    "missing_count": 0,
+    "total_count": 22
+  }
+}

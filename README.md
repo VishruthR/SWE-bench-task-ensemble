@@ -34,3 +34,23 @@ Most of this task was completed through basic scripting. You will find various s
 I leveraged GitHub Copilot + Clause Sonnet 3.7 agent mode extensively to generate scripts, run commands, and generally make my life easier. 
 
 This task was completed on an EC2 m5.2xlarge instance with a 150 GB gps EBS volume. It cost about $10 USD to complete the task (development + testing).
+
+### References
+
+@inproceedings{
+    anonymous2025utboost,
+    title={{UTB}oost: Rigorous Evaluation of Coding Agents on {SWE}-Bench},
+    author={Anonymous},
+    booktitle={Submitted to ACL Rolling Review - December 2024},
+    year={2025},
+    url={https://openreview.net/forum?id=I4tNPWHM6e},
+}
+
+@inproceedings{
+    jimenez2024swebench,
+    title={{SWE}-bench: Can Language Models Resolve Real-world Github Issues?},
+    author={Carlos E Jimenez and John Yang and Alexander Wettig and Shunyu Yao and Kexin Pei and Ofir Press and Karthik R Narasimhan},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    url={https://openreview.net/forum?id=VTF8yNQM66}
+}
